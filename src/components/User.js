@@ -1,21 +1,18 @@
 import Avatar from '@mui/material/Avatar';
-import '../styles/User.css'
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
 import Divider from '@mui/material/Divider';
 
-const Img = styled('img')({
-  margin: 'auto',
-  display: 'block',
-  maxWidth: '100%',
-  maxHeight: '100%',
-});
+import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
 
-function User({user, theme}){
+import '../styles/User.css'
+
+function User({user}){
     return(
         <div >
             <Paper
@@ -46,11 +43,14 @@ function User({user, theme}){
                         <Typography gutterBottom variant="h4" component="div">
                             {user.name.first} {user.name.last}
                         </Typography>
-                        <Typography variant="body2" gutterBottom>
-                            Email: {user.email}
+                        <Typography variant="body2" color="text.secondary">
+                            <EmailOutlinedIcon sx={{verticalAlign: 'middle'}} fontSize='small' colors='primary'/> <span>{user.email}</span>
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Cell: {user.cell}
+                            <PhoneOutlinedIcon sx={{verticalAlign: 'middle'}} fontSize='small' colors='primary'/> <span>{user.cell}</span>
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            <PlaceOutlinedIcon sx={{verticalAlign: 'middle'}} fontSize='small' colors='primary'/> <span>{user.location.country}</span>
                         </Typography>
                         </Grid>
                     </Grid>

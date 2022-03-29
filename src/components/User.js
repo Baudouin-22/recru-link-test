@@ -41,7 +41,7 @@ function User({user}){
                     <Grid item xs container direction="column" spacing={2}>
                         <Grid item xs>
                         <Typography gutterBottom variant="h4" component="div">
-                            {user.name.first} {user.name.last}
+                            {user.name.first.toUpperCase()} {user.name.last.toUpperCase()}
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             <EmailOutlinedIcon sx={{verticalAlign: 'middle'}} fontSize='small' colors='primary'/> <span>{user.email}</span>

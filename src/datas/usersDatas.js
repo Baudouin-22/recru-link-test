@@ -4,6 +4,62 @@ export const usersDatas = [
         "gender": "female",
         "name": {
             "title": "Mrs",
+            "first": "Noémie",
+            "last": "Walker"
+        },
+        "location": {
+            "street": {
+                "number": 102,
+                "name": "Stanley Way"
+            },
+            "city": "Melbourne",
+            "state": "Yukon",
+            "country": "Canada",
+            "postcode": "Q1I 3B1",
+            "coordinates": {
+                "latitude": "-60.7039",
+                "longitude": "131.0067"
+            },
+            "timezone": {
+                "offset": "+4:00",
+                "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+            }
+        },
+        "email": "noemie.walker@example.com",
+        "login": {
+            "uuid": "de890e9e-0bbc-4713-9222-8559fbd18871",
+            "username": "blacklion382",
+            "password": "bruce",
+            "salt": "QRXDfm2j",
+            "md5": "e5cb7b61bb2acf74e6e6c3fe650dd0b7",
+            "sha1": "ed6e845a3924a14e0269e2e153bbe9bb3cad2714",
+            "sha256": "63a511402ee8e15504f6fb73b57fac23533f0b5b13a50ea65c6c744664e9bacb"
+        },
+        "dob": {
+            "date": "1964-10-24T08:25:42.959Z",
+            "age": 58
+        },
+        "registered": {
+            "date": "2012-09-18T04:33:37.320Z",
+            "age": 10
+        },
+        "phone": "681-554-1974",
+        "cell": "974-182-2783",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/94.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/94.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/94.jpg"
+        },
+        "nat": "CA"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Mrs",
             "first": "Kathy",
             "last": "Thompson"
         },
@@ -55,6 +111,118 @@ export const usersDatas = [
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/32.jpg"
         },
         "nat": "IE"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Ms",
+            "first": "Ella",
+            "last": "Hannula"
+        },
+        "location": {
+            "street": {
+                "number": 9570,
+                "name": "Hämeentie"
+            },
+            "city": "Outokumpu",
+            "state": "Central Finland",
+            "country": "Finland",
+            "postcode": 71529,
+            "coordinates": {
+                "latitude": "-14.2519",
+                "longitude": "25.2466"
+            },
+            "timezone": {
+                "offset": "+7:00",
+                "description": "Bangkok, Hanoi, Jakarta"
+            }
+        },
+        "email": "ella.hannula@example.com",
+        "login": {
+            "uuid": "11ecf490-ac62-4f0b-81be-28717ca5ffda",
+            "username": "tinydog586",
+            "password": "pierre",
+            "salt": "XAh0aQXg",
+            "md5": "5948d022f0459b318f707109b8900e14",
+            "sha1": "fd23a3346fd4f1a262ec9784c1193883d28cf701",
+            "sha256": "d41790a040136655defd7f548e63f8f97ebb49b3632b58dae23401fa97ac90a6"
+        },
+        "dob": {
+            "date": "1969-02-02T15:27:57.941Z",
+            "age": 53
+        },
+        "registered": {
+            "date": "2003-11-10T04:10:49.650Z",
+            "age": 19
+        },
+        "phone": "08-639-986",
+        "cell": "044-932-93-69",
+        "id": {
+            "name": "HETU",
+            "value": "NaNNA852undefined"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/46.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/46.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/46.jpg"
+        },
+        "nat": "FI"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Mrs",
+            "first": "Valeria",
+            "last": "Speicher"
+        },
+        "location": {
+            "street": {
+                "number": 5136,
+                "name": "Waldstraße"
+            },
+            "city": "Ingelfingen",
+            "state": "Niedersachsen",
+            "country": "Germany",
+            "postcode": 15777,
+            "coordinates": {
+                "latitude": "-38.0124",
+                "longitude": "123.9881"
+            },
+            "timezone": {
+                "offset": "+9:30",
+                "description": "Adelaide, Darwin"
+            }
+        },
+        "email": "valeria.speicher@example.com",
+        "login": {
+            "uuid": "fdae8f68-1dcc-4191-8e65-8fe3b4b33314",
+            "username": "greenleopard988",
+            "password": "graves",
+            "salt": "3WXgLhW3",
+            "md5": "79a2e5209ebe31eaf0b8b8ab196e6bd9",
+            "sha1": "1159abc16f057f6db3d6e60130bb19dc5ff18b41",
+            "sha256": "9191b2578b92a4080024774ea24a78adc772ab90ce8fbaeaf00af7e13f3e74e5"
+        },
+        "dob": {
+            "date": "1994-09-24T20:36:31.597Z",
+            "age": 28
+        },
+        "registered": {
+            "date": "2005-11-22T04:22:20.036Z",
+            "age": 17
+        },
+        "phone": "0262-2102289",
+        "cell": "0171-8798608",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/67.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/67.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/67.jpg"
+        },
+        "nat": "DE"
     },
     {
         "gender": "female",
